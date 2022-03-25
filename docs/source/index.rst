@@ -1,22 +1,23 @@
-Welcome to Lumache's documentation!
-===================================
+Willkommen bei Cleverworks Webhook-Systemen
+===========================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Cleverworks** ist eine Marketing- und Automatisierungsanwendung, mit der die
+Kunden- und Teamkommunikation vereinfacht und optimiert wird. Dafür bietet es
+eine *einfache* und *intuitive* Benutzeroberfläche.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Das Webhook-System stellt innerhalb des Cleverworks-Systems eine *flexible* Art
+der externen Schnittstellenanbindung dar. 
+
+Schaue im Abschnitt :doc:`Benutzung` für weitere Informationen, auch wie masn als Benutzer ein :ref:`System erstellen` kann.
 
 .. note::
 
-   This project is under active development.
+   Dieses Projekt ist in aktiver Entwicklung.
 
-Contents
+Inhalt
 --------
 
 .. toctree::
 
-   usage
-   api
+   Benutzung
+   System erstellen
