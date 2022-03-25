@@ -1,22 +1,22 @@
-Usage
+Benutzung
 =====
 
-.. _installation:
+.. _Schnellstart:
 
-Installation
+Schnellstart
 ------------
 
-To use Lumache, first install it using pip:
+Um das Webhook-System verwenden zu können benötigen sie folgende Rechte:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   webhook_system
 
-Creating recipes
-----------------
+Erstellen einer Webhook-Aktion
+------------------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Ziehen Sie zum Erstellen einer Webhookaktion das Symbol aus der
+Aktionsleiste in den Kampagnenmanager in eine Kampagne.
 
 .. autofunction:: lumache.get_random_ingredients
 
