@@ -25,7 +25,7 @@ Danach erscheint eine Auswahlbox für die Anmeldedaten. Sollten Sie schon Anmeld
 zu dem System hinterlegt haben, können Sie diese an dieser Stelle auswählen. Sollten
 noch keine Anmeldedaten hinterlegt sein, wird nur `Bitte wählen` angeboten.
 In diesem Fall klicken Sie auf den Pfeil rechts neben der Auswahlbox um Anmeldedaten
-für dieses System zu hinterlegen. Mehr dazu unter :ref:`Anlegen von Anmeldedaten`
+für dieses System zu hinterlegen. Mehr dazu unter :doc:`Anlegen von Anmeldedaten`
 
 Nachdem die Anmeldedaten gewählt oder angelegt sind, wählen Sie den eigentlichen Event,
 der im anderen System stattfinden soll. Zum Beispiel `Kontakt erstellen` oder `Rechnung erstellen`.
