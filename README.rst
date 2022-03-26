@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Read the Docs Project for the Cleverworks Webhook-Systems
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Read the docs here:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://rtd-cw-webhooksystems.readthedocs.io/
