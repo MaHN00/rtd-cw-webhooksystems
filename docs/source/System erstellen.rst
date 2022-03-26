@@ -34,4 +34,4 @@ Es öffnet sich ein Wizard, der Sie durch die Einrichtung begleitet.
    Geben Sie zuletzt einen Namen, Beschreibung, Logo, etc. für das neu erstellte System an.
    Haben Sie das gemacht, klicken Sie zum Speichern auf ```Fertigstellen```
    
-   Im Anschluß können Sie das System in einer Aktion verwenden. Lesen Sie dazu mehr unter :doc:```Benutzung```
+   Im Anschluß können Sie das System in einer Aktion verwenden. Lesen Sie dazu mehr unter :doc:`Benutzung`
