@@ -8,7 +8,7 @@ eine *einfache* und *intuitive* Benutzeroberfläche.
 Das Webhook-System stellt innerhalb des Cleverworks-Systems eine *flexible* Art
 der externen Schnittstellenanbindung dar. 
 
-Schaue im Abschnitt :doc:`Benutzung` für weitere Informationen, auch wie masn als Benutzer ein :ref:`System erstellen` kann.
+Schaue im Abschnitt :doc:`Benutzung` für weitere Informationen, auch wie masn als Benutzer ein :doc:`System erstellen` kann.
 
 .. note::
 
