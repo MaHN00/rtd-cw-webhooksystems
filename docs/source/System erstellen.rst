@@ -13,6 +13,26 @@ Einrichtung
    Wählen Sie hier, mit welcher Methode Sie den Benutzer an dem externen System authentifizieren.
    Möglich sind ``"none", "basic_auth", "api_key", "oauth_v2", "bearer_token"``.
    
+   1) none:
+      Wählen Sie diese Authentifizierungsmethode, sollten Sie keine Daten zum Anmelden benötigen.
+      Der Benutzer muss beim Anlegen trotzdem eine Anmeldung durchführen, da es sein kann, dass Sie trotzdem Daten vom User verlangen, die mit der
+      Erstellung der Anmeldung gespeichert werden.
+   2) basic_auth:
+      Mit der Basic-Authentication-Methode, werden Benutzername und Passwort vom Benutzer befragt und in jedem HTTP-Request im ``Authorization``-Header
+      angefügt und gesendet.
+   3) api_key:
+      Bei dieser Methode wird nur ein Key/Token vom Benutzer abgefragt, und wird in Header, Body und URL-Parameter angehangen
+   4) oauth_v2:
+      Die OAuth2 Authentifizierung. Benötigt einiges mehr an Konfiguration. Im Fremdsystem müssen Sie zuerst die Redirect-URL hinterlegen, und damit eine ClientId und
+      ein ClientSecret generieren. Geben Sie beides im Wizard an. Daraufhin müssen Sie noch den Scope nach den Vorgaben des Fremdsystems einstellen.
+      Zusätzlich werden dann noch drei URLs benötigt. Die Authorization-URL, ist die Adresse, wo der Benutzer zum Anmelden hin weitergeleitet wird.
+      Die Access-Token-URL ist die Adresse, bei der im Anschluss der Authorization-Code in einen Access-Token umgetauscht wird.
+      Um zuletzt gegebenenfalls die Refresh-Token-URL. Bei dieser Adresse kann der abgelaufene Access-Token erneuert werden,
+      ohne dass der Benutzer sich erneut Anmelden müsste.
+   5) bearer_token:
+      Diese Anmeldungsmethode ist ähnlich zu Basic-Auth, nur das bei dieser Methode nur ein Token vom Benutzer angegeben werden muss.
+      Dieser Token wird dann auch bei jeder Anmeldung im HTTP-Header ``Authorization`` angegeben.
+
 2) Schritt: Authentifizierung einrichten
    Geben Sie auf dieser Seite an, welche Daten vom User erfragt werden müssen
    (Hinweis: einige Daten werden zu den jeweiligen Authentifizierungsmethoden schon abgefragt).
